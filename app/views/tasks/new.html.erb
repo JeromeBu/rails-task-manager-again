@@ -1,0 +1,6 @@
+<h3>New task</h3>
+
+<%= simple_form_for [@task] do |f| %>
+  <%= f.input :name %>
+  <%= f.submit "add a task", class: "btn btn-primary" %>
+<% end %>
